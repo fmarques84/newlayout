@@ -1,0 +1,8 @@
+Para descobrir o tamanho do Grid 
+calculo
+exemplo
+container = 960
+colunas = 16
+gutter(espaçamento entre colunas) = 20
+
+(container / colunas * 5) - gutter

@@ -1,12 +1,11 @@
-.produto{
+.produto {
   height: 200px;
   background: blue;
 }
 
-.produto2, 
+.produto2,
 .produto3,
 .produto4,
-.produto5
-{
+.produto5 {
   margin-top: 20px;
 }
