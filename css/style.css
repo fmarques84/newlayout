@@ -1,11 +1,81 @@
-.produto {
-  height: 200px;
-  background: blue;
+.produto{
+  height:200px;
+  text-align:center;
+  padding-top:80px;
+  font-size:40px;
+  margin: 10px;
+  background-image: url('../img/fox.jpg') ;
+  background-size: cover;  
 }
 
-.produto2,
-.produto3,
-.produto4,
-.produto5 {
+.produto1{
+  height:200px;
+  text-align:center;
+  padding-top:80px;
+  font-size:40px;
+  margin: 10px;
+  background-image: url('../img/lion.jpg') ;
+  background-size: cover;  
+}
+
+.produto2{
+  height:200px;
+  text-align:center;
+  padding-top:80px;
+  font-size:40px;
+  margin: 10px;
+  background-image: url('../img/tiger.jpg') ;
+  background-size: cover;  
+}
+
+.produto3{
+  height:200px;
+  text-align:center;
+  padding-top:80px;
+  font-size:40px;
+  margin: 10px;
+  background-image: url('../img/falcon.jpg') ;
+  background-size: cover;  
+}
+
+.container img{
+  width:60px;
+  height:60px;
+}
+
+body{
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+  position:fixed;
+  top:0;
+  width:100%;
+  background: #c31432;  
+  padding:10px 0;
+}
+
+.header_menu{
+  text-align: right;
+}
+
+.header_menu ul li{
+  display:inline-block;
+  margin-left: 20px;
   margin-top: 20px;
+}
+
+.header_menu ul li a{
+  color:#000;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size:14px;
+  line-height:20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover{
+  color:#fff;
 }
